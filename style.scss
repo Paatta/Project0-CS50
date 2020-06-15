@@ -1,0 +1,31 @@
+$margin: 30px;
+%card{
+margin: $margin;
+}
+#ongoing{
+  background-color: teal;
+  h4>a{
+    color: white;
+  }
+  p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #F5F5F5;
+  }
+  }
+
+.card-body{
+  @extend %card;
+  text-align: center;
+  p{
+
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    width: 100%;
+  }
+}

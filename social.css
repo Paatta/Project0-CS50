@@ -1,0 +1,27 @@
+.fa {
+  padding: 50px;
+  font-size: 70px;
+  width: 180px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 50px;
+}
+.fa-facebook {
+  color: #3B5998;
+}
+.fa-instagram{
+  color: #3f729b;
+}
+.fa-github{
+  color: black;
+}
+.fa-linkedin{
+  color: #0e76a8;
+}
+#form{
+  font-size: 35px;
+  width: 30px;
+  padding: 1px;
+  margin: 10px;
+}
